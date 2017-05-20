@@ -24,20 +24,52 @@
 
         <div class="container main-content">
 
-          <section class="question question--first">
-            <h3 class="question__title"></h3>
-            <p class="question__text">Lorem ipsum dolor sit amet ?</p>
-            <button class="question__btn question__btn--first">Choice first</button>
-            <button class="question__btn">Choice second</button>
-            <button class="question__btn question__btn--last">Choice last</button>
+          <section class="container question question--first">
+            <h3 class="question__title">Question n°1</h3>
+            <p class="question__text">How old are you ?</p>
+            <label for="age">Age</label>
+            <input id="age" type="number" name="age" min="7" max="105">
           </section>
 
-          <section class="question question--last">
-            <h3 class="question__title"></h3>
-            <p class="question__text">Lorem ipsum dolor sit amet ? Again ?</p>
-            <button class="question__btn question__btn--first">Choice first</button>
-            <button class="question__btn">Choice second</button>
-            <button class="question__btn question__btn--last">Choice last</button>
+          <section class="container question question--second">
+            <h3 class="question__title">Question n°2</h3>
+            <p class="question__text">What is your gender</p>
+            <label for="male">Male</label>
+            <input id="male" type="radio" name="gender"  value="male">
+            <label for="female">Female</label>
+            <input id="female" type="radio" name="gender"  value="female">
+          </section>
+
+          <section class="container question question--third">
+            <h3 class="question__title">Question n°3</h3>
+            <p class="question__text">Do you smoke ?</p>
+            <label for="yes-smoke">Yes</label>
+            <input id="yes-smoke" type="radio" name="smoke" value="yes">
+            <label for="no-smoke">No</label>
+            <input id="no-smoke" type="radio" name="smoke" value="no">
+          </section>
+
+          <section class="container question question--fourth">
+            <h3 class="question__title">Question n°4</h3>
+            <p class="question__text">How many cigarette per week ?</p>
+            <label for="cigarettes">Cigarettes</label>
+            <input id="cigarettes" type="number" name="cigarettes" min="0" max="200">
+          </section>
+
+          <section class="container question question--fifth">
+            <h3 class="question__title">Question n°5</h3>
+            <p class="question__text">Do you drink ?</p>
+            <label for="yes-drinks">Yes</label>
+            <input id="yes-drinks" type="radio" name="drink" value="yes">
+            <label for="no-drinks">No</label>
+            <input id="no-drinks" type="radio" name="drink" value="no">
+          </section>
+
+          <section class="container question question--sixth">
+            <h3 class="question__title">Question n°6</h3>
+            <p class="question__text">How many glass per week ?</p>
+            <label for="drinks">Drinks</label>
+            <input id="drinks" type="number" name="drinks" min="0" max="100">
           </section>
 
         </div>
